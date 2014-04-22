@@ -193,6 +193,7 @@ public class String1 {
         if(str.equals("")) return str;
 
         if(str.charAt(0) == 'x' || str.charAt(str.length()-1) == 'x') {
+
             if(str.startsWith("x")&&str.endsWith("x")) {
                 return str.substring(1,str.length()-1);
             }  else if(str.startsWith("x")) {
